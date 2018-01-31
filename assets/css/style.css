@@ -1,23 +1,57 @@
 body{
-	background-color:#ffffff;
-	padding: 20px;
- 	margin-bottom: 20px;
-	box-sizing: border-box;
-	height:500vh;
-	width:65%;
 }
 
-h1{
-	width: 100px;
-	height: 30px;
-	padding: 20px;
-	border: 5px;
-	margin: 0;
-	float:left;
-	text-align:center;
-	background:#4aaaa5
-	color:#fff;
+section{
+	font-size:20px;
 	font-family:Georgia;
+	margin:0px;
+	height:400px;
+	width:1000px;
+	border-style:inset;
+	border-width:20px;
+	clear:both;
+	padding:20px;
+	background-image:url("https://www.transparenttextures.com/patterns/black-felt.png");
+	background-repeat: repeat-y repeat-x;
+}
+
+div{
+	float-right;
+	box-sizing:border-box;
+	background-color:#ffffff;
+	margin-bottom:10px;
+	width:50%;
+	height:20vh;
+
+}
+
+#left {
+	box-sizing: border-box;
+	background:#ffffff;
+	padding:20px;
+	
+}
+
+#nav {
+	box-sizing: border-box;
+	float:right;
+	color:#777777;
+}
+
+
+h1{
+	padding:20px;
+	margin:0px,0px,0px,0px;
+	box-sizing: border-box;
+	width:20%;
+	color:#ffffff;
+	text-align:center;
+	background-color:#4aaaa5;
+
+}
+
+p{
+	
 }
 
 h2{
@@ -26,4 +60,32 @@ h2{
 
 img {
 	float:left;
+}
+
+footer {
+	text-align:center;
+	clear:both;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	color: #eee;
+    background: #666666;
+}
+
+.first {
+	padding:15px;
+	width:50%;
+}
+
+.email {
+	padding:15px;
+	width:50%;
+}
+
+.message {
+	padding:15px;
+	width:50%;
+	height:25vh;
+}
+
+ul {
 }
